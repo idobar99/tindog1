@@ -12,17 +12,7 @@ p {
   color: #8f8f8f;
 }
 
-@media (max-width: 1028px) {
-  .iphone-mockup {
-    position: static;
-    transform: rotate(0);
-    width: 60%;
-  }
 
-  #title {
-    text-align: center;
-  }
-}
 /*******CONTAINERS**********/
 .container-fluid {
   padding: 7% 15%;
@@ -40,6 +30,10 @@ p {
 /*****navigation bar****/
 .navbar {
   padding: 0 0 4.5rem;
+}
+
+.nav-container{
+  padding: 0;
 }
 
 .navbar-brand {
@@ -163,4 +157,29 @@ p {
   color: #183153;
   font-size: 1.5rem;
   margin: 10px;
+}
+
+@media (max-width: 1028px) {
+  .title-row{
+    text-align: center;
+  }
+
+  .iphone-mockup {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+   .big-heading {
+    text-align: center;
+  }
+  .download-button{
+    margin: auto;
+  }
+  .navbar-toggler{
+    position: absolute;
+    right: 0;
+  }
+
+
 }
